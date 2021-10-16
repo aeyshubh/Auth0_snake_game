@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #222;
+  background-size: cover;
+  position: relative;
+}
+
+#root {
+  background-color: rgb(52, 135, 191);
+  min-width: 400px;
+  border: 1px solid white;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.quote-text {
+  font-size: 40px;
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.quote-footer {
+  margin: 10px 0 10px 0;
+  font-size: 20px;
+}
+
+.icon {
+  margin-top: 10px;
+  float: left;
+}
+
+.fa-quote-left {
+  position: relative;
+  top: 34px;
+}
+
+.fa-quote-right {
+  position: relative;
+  bottom: 23px;
+  float: right;
+}
+
+.fa-twitter {
+  font-size: 30px !important;
+  color: #80c3f5;
+}
+
+.quote-next {
+  color: #fff;
+  width: 70px;
+  font-size: 24px;
+  float: right;
+  margin-top: 16px;
+  padding: 5px 0;
+  background-color: transparent;
+  border: 1px solid;
+}
+
+.quote-next:focus {
+  outline: none;
+}
